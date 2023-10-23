@@ -1,0 +1,85 @@
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, #2C5364, #203A43, #0F2027);
+    font-family: 'Jua', sans-serif;
+}
+.hover_wrap {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hover_wrap .effect {
+    position: relative;
+    width: 400px; height: 300px; margin: 10px;
+    perspective: 1000px;
+}
+.hover_wrap .effect .front {
+    position: absolute; left: 0; top: 0; z-index: 10;
+    transform-style: preserve-3d;
+}
+.hover_wrap .effect .back {
+    position: absolute; left: 0; top: 0;
+    transform-style: preserve-3d;
+}
+.hover_wrap .effect img {
+    width: 100%; display: block;
+}
+.hover_wrap .effect figcaption {
+    position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%, -50%) translatez(100px);
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    backface-visibility: hidden;
+    color: #fff;
+    padding: 3% 4%;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+.hover_wrap .effect figcaption h3 {
+    font-size: 30px; padding-bottom: 10px;
+}
+.hover_wrap .effect figcaption p {
+    font-size: 16px;
+}
+
+/* media query */
+@media (max-width: 600px){
+    .hover_wrap {flex-direction: column;}
+}
+
+/* hover effect 1 */
+.hover_wrap .effect.hover9 .front {
+    transform: rotateY(0deg);
+    transition: transform 1s;
+    backface-visibility: hidden;
+}
+.hover_wrap .effect.hover9:hover .front {
+    transform: rotateY(180deg);
+}
+.hover_wrap .effect.hover9 .back {
+    transform: rotateY(-180deg);
+    transition: transform 1s;
+    backface-visibility: hidden;
+}
+.hover_wrap .effect.hover9:hover .back {
+    transform: rotateY(0deg);
+}
+
+/* hover effect 2 */
+.hover_wrap .effect.hover10 .front {
+    transform: rotateX(0deg);
+    transition: transform 1s;
+    backface-visibility: hidden;
+}
+.hover_wrap .effect.hover10:hover .front {
+    transform: rotateX(180deg);
+}
+.hover_wrap .effect.hover10 .back {
+    transform: rotateX(-180deg);
+    transition: transform 1s;
+    backface-visibility: hidden;
+}
+.hover_wrap .effect.hover10:hover .back {
+    transform: rotateX(0deg);
+}
