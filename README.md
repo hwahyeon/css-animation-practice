@@ -6,10 +6,13 @@
 
 이 저장소는 **CSS Animation**의 학습 내용이 정리되어 있습니다.
 
-> webstoryboy
+> 강사 : webstoryboy
 
 ## 학습 목표
 - `CSS3` 효과 중 Animation 학습
+- 
+## 학습 결과
+[결과물 바로가기](https://hwahyeon.github.io/class-wb-stadndard)
 
 ## 학습 내용
 - CSS3
