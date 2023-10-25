@@ -13,6 +13,16 @@
 
 ## 학습 결과
 [결과물 바로가기](https://hwahyeon.github.io/class-wb-cssani)
+- [Bar](https://hwahyeon.github.io/class-wb-cssani/CSSanime01.html)
+- [Dot](https://hwahyeon.github.io/class-wb-cssani/CSSanime02.html)
+- [Wave](https://hwahyeon.github.io/class-wb-cssani/CSSanime03.html)
+- [Cube](https://hwahyeon.github.io/class-wb-cssani/CSSanime04.html)
+- [Tail](https://hwahyeon.github.io/class-wb-cssani/CSSanime05.html)
+- [hoverEffect01](https://hwahyeon.github.io/class-wb-cssani/CSSanime06.html)
+- [hoverEffect02](https://hwahyeon.github.io/class-wb-cssani/CSSanime07.html)
+- [hoverEffect03](https://hwahyeon.github.io/class-wb-cssani/CSSanime08.html)
+- [hoverEffect04](https://hwahyeon.github.io/class-wb-cssani/CSSanime09.html)
+- [hoverEffect05](https://hwahyeon.github.io/class-wb-cssani/CSSanime10.html)
 
 ## 학습 내용
 - CSS3
@@ -24,16 +34,7 @@
     - flex
     - perspective
 
-- [Bar](https://hwahyeon.github.io/class-wb-cssani/CSSanime01.html)
-- [Dot](https://hwahyeon.github.io/class-wb-cssani/CSSanime02.html)
-- [Wave](https://hwahyeon.github.io/class-wb-cssani/CSSanime03.html)
-- [Cube](https://hwahyeon.github.io/class-wb-cssani/CSSanime04.html)
-- [Tail](https://hwahyeon.github.io/class-wb-cssani/CSSanime05.html)
-- [hoverEffect01](https://hwahyeon.github.io/class-wb-cssani/CSSanime06.html)
-- [hoverEffect02](https://hwahyeon.github.io/class-wb-cssani/CSSanime07.html)
-- [hoverEffect03](https://hwahyeon.github.io/class-wb-cssani/CSSanime08.html)
-- [hoverEffect04](https://hwahyeon.github.io/class-wb-cssani/CSSanime09.html)
-- [hoverEffect05](https://hwahyeon.github.io/class-wb-cssani/CSSanime10.html)
+
 
 ## 참고 자료
 - [강의 소개](https://www.youtube.com/playlist?list=PL4UVBBIc6giJS1MPfte_ay0FjXw_pmb_H)
