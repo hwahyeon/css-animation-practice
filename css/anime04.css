@@ -1,11 +1,16 @@
 body {
     background-image: linear-gradient(120deg, #e47b8b 0%, #d4fc78 100%);
-    perspective: 1000px; /*원근점(z축)*/
+    
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.loading {
+    perspective: 1000px; /*원근점(z축)*/
+}
+
 .cube{
     position: relative;
     width: 100px; height: 100px;
